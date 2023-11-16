@@ -1,0 +1,125 @@
+*, *::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 870px){
+.middle-part1,.middle-part2{
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 25%;
+    color: white;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 5rem;
+    font-size: 2.25rem;
+}
+.middle-part2{
+    margin-top: -18%; 
+    margin-left: 40%;
+}
+.parent1{
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin: 2rem;
+    padding: 1rem;
+    line-height: 1.75rem;
+    border: #dadada 1px solid;
+    border-radius: 6px;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.post{
+    color: rgb(0, 38, 121);
+    font-size: 1.35rem;
+    padding-left: 0.5rem;
+    font-weight: 600;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.10rem;
+}
+}
+
+
+@media (min-width: 870px){
+    .middle-part1{
+        height: 50vh;
+        background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(./group.jpg);
+        color: white;
+        background-size: cover;
+        display: flex;
+        padding-left: 30%;
+        padding-top: 19%;
+        align-items: start;
+        padding-bottom: 5rem;
+        font-size: 3.75rem;   
+    }
+    .middle-part2{
+        color: #ffffff;
+        position: absolute;
+        height: 50vh;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding-bottom: 5rem;
+        font-size: 3.75rem;   
+        margin-top: -25%;
+        margin-left: 54%;
+    }
+    .middle-part1 p{
+        position: absolute;
+        margin-top: 10%;
+        margin-right: 0;
+    }
+    .club-logo1{
+     display: none;   
+    }
+.Btn{
+    border: 2px solid white;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+.parent1{
+    max-width: 25%;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin: 2rem;
+    padding: 1rem;
+    line-height: 1.75rem;
+    border: #dadada 1px solid;
+    border-radius: 6px;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.post{
+    color: rgb(0, 38, 121);
+    font-size: 1.35rem;
+    padding-left: 0.5rem;
+    font-weight: 600;
+}
+.child{
+    display: flex;
+    font-size: 1.10rem;
+}
+}

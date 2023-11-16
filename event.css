@@ -1,0 +1,102 @@
+*, *::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 870px){
+.middle-part1{
+     position: absolute; 
+     margin-top: -30%; 
+    color: white;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 5rem;
+    font-size: 3rem;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 1rem;
+    margin-top: 2rem;
+    border: none;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+    border-radius: 6px;
+    max-width: 870px;
+    padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+}
+.middle-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 1rem;
+}
+.Btn{
+    border: 2px solid white;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+
+
+@media (min-width: 870px){
+    .middle-part1{
+        height: 50vh;
+        background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(./group.jpg);
+        color: white;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding-bottom: 5rem;
+        font-size: 3.75rem;
+        
+    }
+    .middle-part1 p{
+        position: absolute;
+        margin-top: 10%;
+        margin-right: 35%;
+    }
+    .club-logo1{
+     display: none;   
+    }
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important; 
+    gap: 2rem;
+    margin: 1rem;
+     margin-top: 2rem;
+     margin-left: 20%;
+    border: none;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    color: #000000;
+    font-weight: 600;
+    border-radius: 6px;
+    max-width: 870px;
+    padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+}
+.Btn{
+    border: 2px solid white;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+}

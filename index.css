@@ -1,0 +1,156 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+  
+  @media (max-width: 870px){
+
+    .container{
+      font-family: 'Exo 2', sans-serif;
+      width: auto;
+      height: auto;
+  }
+  .Btn{
+    border: 2px solid white;
+}
+  .header{
+    color:  #000000;
+    padding: 1rem;
+ text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+ }
+ .middle-part1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(6, 0, 0);
+  height: auto;
+  margin-top: 2.5rem;
+
+  gap: 2rem;
+  padding: 0 1rem 0 1rem ;
+  font-size: 1.10rem;
+  line-height: 2rem;
+  text-align: center;
+
+ }
+
+    .medium-size{
+      font-size: 1.1rem;
+      color: #000000;
+     padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+      line-height: 2rem;
+      text-align: center;
+      /* max-width: fit-content; */
+  }
+  #visit-more{
+      display: flex;
+      justify-content: center;
+  }
+  .sub-header{
+    color: #000000;
+      font-size: 1.5rem;
+      text-align: center;
+      margin: 2rem 0 2rem 0;
+      background-color: #b5b5b5;
+      padding: 0.5rem;
+      
+  }
+  #clubs4{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .Btn{
+    width: fit-content;
+    min-width: 16rem;
+    border-radius: 10px;
+  }
+  }
+
+  @media (min-width: 870px){
+.container{
+    font-family: 'Exo 2', sans-serif;
+    width: 100vw;
+    height: auto;
+}
+
+.middle-part1{
+  height: 50vh;
+  background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(./group.jpg);
+  color: white;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 5rem;
+  font-size: 3.75rem;
+  
+}
+.club-logo1{
+display: none;   
+}
+
+
+.middle-part1{
+  height: 100vh;
+  background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(https://entesarscoe2022.netlify.app/background6.jpg);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 10rem;
+  font-size: 1.10rem;
+  line-height: 2.10rem;
+  text-align: center;
+
+}
+.header{
+    color: rgb(255, 255, 255); 
+    font-size: 3.75rem;
+    font-weight: 500;
+    text-align: center;
+    width: 50rem;
+ }
+    .medium-size{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 5rem;
+  font-size: 1.10rem;
+  line-height: 2.10rem;
+  text-align: center;
+    }
+    .sub-header{
+      margin-top: 1rem;
+      font-size: 2.5rem;
+      text-align: center;
+      background-color: #bbc0c5;
+      padding: 1rem;
+      
+  }
+     #visit-more{
+        display: flex;
+        justify-content: center;
+    }
+  
+    #clubs4{
+        display: flex;
+        justify-content: center;
+
+    }
+  }
+    
+

@@ -1,0 +1,101 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Exo 2', sans-serif;
+}
+
+@media (max-width: 870px){
+
+    .heading{
+        margin: 1rem;
+        margin-top: 2rem;
+        border: none;
+        line-height: 2.75rem;
+        font-size: 1.4rem;
+        text-align: center;
+        color: #000000;
+        font-weight: 600;
+        border-radius: 6px;
+        max-width: 870px;
+        padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+    }
+    .info{
+        font-size: 1rem;
+        padding: 1.5rem;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        line-height: 1.75rem;
+        /* margin-bottom: 0.5rem; */
+        max-width: fit-content;
+    }
+    #team-info{
+        display: flex;
+        justify-content: center;
+    }
+    .Btn{
+        border-radius: 10px;
+        margin: 3rem;
+    }
+    .middle-part1{
+        position: absolute;
+        margin-top: -30%;
+        margin-left: 33%;
+        color: white;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding-bottom: 5rem;
+        font-size: 3rem;
+    }
+    .Btn{
+        border: 2px solid white;
+    }
+
+
+}
+
+@media (min-width: 870px){
+
+    .middle-part1{
+        height: 50vh;
+        background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(./group.jpg);
+        color: white;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding-bottom: 5rem;
+        font-size: 3.75rem;
+        
+    }
+    .club-logo1{
+     display: none;   
+    }
+.heading{
+    text-align: center;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    font-size: 2.5rem;
+}
+.info{
+    padding: 0 4rem 0 4rem;
+    font-size: 1.10rem;
+    line-height: 2.10rem;
+    text-align: center;
+}
+.Btn{
+    margin: 4rem;
+}
+#team-info{
+    display: flex;
+    justify-content: center;
+}
+}
+    
